@@ -1,5 +1,6 @@
 .row {
     width: 100%;
+    display: flex;
 }
 
 .box {
@@ -8,6 +9,7 @@
     background-color: #006cfa;
     color: white;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .inner-box {
@@ -15,4 +17,5 @@
     background-color: #00e165;
     border: 1px solid #006cfa;
     padding: 1rem;
+    overflow: hidden;
 }
