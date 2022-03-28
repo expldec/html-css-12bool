@@ -1,17 +1,18 @@
 .row {
-    background-color: pink;
+    width: 100%;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
+    text-align: center;
     border: 1px solid white;
     background-color: #006cfa;
     color: white;
+    padding: 1rem;
 }
 
 .inner-box {
+    text-align: center;
     background-color: #00e165;
+    border: 1px solid #006cfa;
+    padding: 1rem;
 }
